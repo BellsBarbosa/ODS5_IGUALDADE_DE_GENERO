@@ -1,0 +1,162 @@
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Kalam&family=Montserrat:ital,wght@0,300;0,400;0,500;1,400;1,500;1,600&display=swap');
+
+ * {
+
+   margin: 0;
+
+   padding: 0;
+
+   outline: 0;
+ }
+
+ body {
+
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   background-color: #f5ddc5;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   margin-top: 0%;
+   position: relative;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+
+ }
+
+ p {
+   font-size: 1.2em;
+   font-family: 'Montserrat', sans-serif;
+   color: #000000;
+  
+ }
+
+ a {
+   color: rgb(0, 0, 0);
+ }
+
+ .h2 {
+   color: #0b0b0b
+ }
+
+ li {
+
+   list-style: none;
+ }
+
+ .header-menu {
+
+   display: flex;
+   position: fixed;
+   width: 100%;
+   padding: 8px;
+   padding-bottom: 32px;
+   padding-top: 32px;
+   height: 30px;
+   background-color: #6e999c;
+ }
+
+ .header-menu nav {
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+ }
+
+ .lista-menu {
+   display: flex;
+   justify-content: space-evenly;
+   width: 50%;
+   align-items: center;
+ }
+
+ .lista-menu li>a {
+   color: #FFF;
+   font-size: 18px;
+   text-decoration: inherit;
+ }
+
+ .botao {
+   border-radius: 8px;
+   border: 1px solid #9fadaa;
+   color: #9fadaa;
+   font-size: 1.2em;
+   line-height: 25px;
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 10px 20px 10px 20px;
+   position: relative;
+   width: 200px;
+ }
+
+ .botao a {
+   padding-left: 20%;
+ }
+
+ .botao a:hover {
+   color: #000000;
+   font-size: 1.2em;
+ }
+
+
+ .column {
+   float: left;
+   width: 50%;
+   padding: 3%;
+   color:#000000;
+   text-align: justify;
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+   content:"";
+   display: table;
+   clear: both;
+ }
+
+  .ods{
+  padding-bottom: 3%;
+ }
+ .dados {
+   padding: 3px;
+   align-content: center;
+   color:#000000
+   
+ }
+
+.destaques {
+  padding: 3px;
+  align-content: center;
+  color: #000000;
+  padding-bottom: 3%;
+}
+
+.lista-titulo{
+font-weight: 600;
+
+}
+
+ .rodape {
+   height: 300px;
+   display: flex;
+   align-items: center;
+   background-color: #6e999c;
+ }
+
+ .lista-rodape {
+   color: #000000;
+   font-weight: 700;
+   font-size: 20px;
+   margin-bottom: 16px;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+
+ }
+
+ .estilo-icone {
+   font-size: 32px;
+   margin-right: 10px;
+ }
+
