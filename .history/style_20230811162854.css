@@ -96,7 +96,7 @@
  .lista-titulo {
    margin-bottom: 5px;
    font-size: 22px;
-   color: #00000;
+   color: #000000;
    font-weight: 700;
  }
 
@@ -111,7 +111,7 @@
  .botao {
    border-radius: 8px;
    border: 1px solid #FF4500;
-   color: #FF4500;
+   color: #1E90FF;
    font-size: 1.2em;
    line-height: 25px;
    text-align: center;

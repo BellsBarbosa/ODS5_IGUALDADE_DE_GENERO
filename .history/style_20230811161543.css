@@ -96,7 +96,7 @@
  .lista-titulo {
    margin-bottom: 5px;
    font-size: 22px;
-   color: #00000;
+   color: #000000;
    font-weight: 700;
  }
 
@@ -110,8 +110,8 @@
 
  .botao {
    border-radius: 8px;
-   border: 1px solid #FF4500;
-   color: #FF4500;
+   border: 1px solid #9fadaa;
+   color: #9fadaa;
    font-size: 1.2em;
    line-height: 25px;
    text-align: center;
@@ -152,15 +152,16 @@
  }
 
  .dados {
-   
+   padding: 3px;
    align-content: center;
    color: #000000
  }
 
  .destaques {
-  
+   padding: 3px;
    align-content: center;
-   color: #000000;   
+   color: #000000;
+   padding-bottom: 3%;
    display: flex;
  }
 
@@ -168,7 +169,6 @@
    align-content: center;
    color: #000000;
    padding-bottom: 3%;
-  display: flex;
  }
 
  .rodape {
@@ -195,7 +195,7 @@
    margin-right: 10px;
  }
  
- .container-fluid{
-  padding-bottom: 3%;
+ #container-fluid{
+  padding-bottom: ;
  }
  
