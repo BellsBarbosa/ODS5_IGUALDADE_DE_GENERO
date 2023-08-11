@@ -76,31 +76,6 @@
    text-decoration: inherit;
  }
 
- .lista-titulo {
-   font-weight: 600;
- }
-
- .lista-titulo {
-   margin-bottom: 5px;
-   font-size: 22px;
-   color: #000000;
-   font-weight: 700;
- }
-
- .lista-local {
-   font-size: 18px;
-   color: #000000;
-
- }
-
- .lista-descricao {
-   font-size: 18px;
-   margin-top: 5px;
-   line-height: 20px;
-   color: #000000;
-   font-weight: 300;
- }
-
  .botao {
    border-radius: 8px;
    border: 1px solid #9fadaa;
@@ -170,7 +145,7 @@
    height: 300px;
    display: flex;
    align-items: center;
-   background-color: #6e999c;
+   background-color: #6e999c;   
 
  }
 
@@ -188,4 +163,5 @@
  .estilo-icone {
    font-size: 32px;
    margin-right: 10px;
- }
+  }
+ 
