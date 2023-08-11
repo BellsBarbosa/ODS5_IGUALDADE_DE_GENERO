@@ -130,7 +130,6 @@
    align-content: center;
    color: #000000;
    padding-bottom: 3%;
-   display: flex;
  }
 
  .cards {
@@ -169,19 +168,4 @@
    font-size: 32px;
    margin-right: 10px;
  }
- @media screen and (min-width: 800px) {
-   .container {
-     margin: 1em 2em;
-   }
- }
- .col {
-   width: 6.25%;
-   /* 60 / 960 = 0.0625 */
- }
- .container {
-   column-count: 3;
- }
-
- img {
-   max-width: 100%;
- }
+ 

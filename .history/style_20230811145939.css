@@ -130,7 +130,6 @@
    align-content: center;
    color: #000000;
    padding-bottom: 3%;
-   display: flex;
  }
 
  .cards {
@@ -180,8 +179,4 @@
  }
  .container {
    column-count: 3;
- }
-
- img {
-   max-width: 100%;
  }
